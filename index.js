@@ -1,4 +1,4 @@
-class Lazy {
+export default class Lazy {
     constructor() {
         this.functions = [];
         this.result = [];

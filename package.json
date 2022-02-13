@@ -16,5 +16,10 @@
     "bugs": {
         "url": "https://github.com/MartinDimitrov1983/Lazy-Evaluation/issues"
     },
-    "homepage": "https://github.com/MartinDimitrov1983/Lazy-Evaluation#readme"
+    "homepage": "https://github.com/MartinDimitrov1983/Lazy-Evaluation#readme",
+    "devDependencies": {
+        "chai": "^4.3.6",
+        "mocha": "^9.2.0"
+    },
+    "type": "module"
 }
