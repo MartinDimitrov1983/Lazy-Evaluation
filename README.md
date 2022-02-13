@@ -4,14 +4,14 @@
 
 2.Run npm install.
  
-Available Scripts
+## Available Scripts
 
 In the project directory, you can run:
 
-npm start
+## npm start
 
 Runs the app loccaly.
 
-npm test
+## npm test
 
 Run unit test about Lazy class.
