@@ -1,7 +1,6 @@
 export default class Lazy {
     constructor() {
         this.functions = [];
-        this.result = [];
     }
 
     add(fn, ...args) {
@@ -15,9 +14,7 @@ export default class Lazy {
             return this.functions.reduce((acc, curObj) => {
                 const { func, args } = curObj;
 
-                acc = func(acc, ...args);
-
-                return acc;
+                return func(acc, ...args);
             }, elem);
         });
     }
@@ -26,11 +23,11 @@ export default class Lazy {
 const computation = new Lazy();
 
 computation
-    .add(function timesTwo(a,) {
+    .add(function timesTwo(a) {
         return a * 2;
     }) //
     .add(function plus(a, b) {
         return a + b;
-    }, 1) // a
+    }, 1); // a
 
 console.log(computation.evaluate([1, 2, 3]));

@@ -2,16 +2,18 @@
 
 1.Install node.js version 16.
 
-2.Run npm install.
+### `npm install`
+
+Install needed modules 
  
 ## Available Scripts
 
 In the project directory, you can run:
 
-## npm start
+### `npm start`
 
-Runs the app loccaly.
+Run the app locally.
 
-## npm test
+### `npm start`
 
 Run unit test about Lazy class.
