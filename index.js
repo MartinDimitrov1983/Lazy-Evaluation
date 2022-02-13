@@ -25,9 +25,9 @@ const computation = new Lazy();
 computation
     .add(function timesTwo(a) {
         return a * 2;
-    }) //
+    })
     .add(function plus(a, b) {
         return a + b;
-    }, 1); // a
+    }, 1);
 
 console.log(computation.evaluate([1, 2, 3]));
