@@ -1,0 +1,20 @@
+{
+    "name": "lazy-evaluation",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index",
+        "test": "mocha index.test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MartinDimitrov1983/Lazy-Evaluation.git"
+    },
+    "author": "Martin Dimitrov",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MartinDimitrov1983/Lazy-Evaluation/issues"
+    },
+    "homepage": "https://github.com/MartinDimitrov1983/Lazy-Evaluation#readme"
+}
